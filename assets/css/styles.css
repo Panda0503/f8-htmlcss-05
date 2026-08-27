@@ -79,6 +79,10 @@ button {
     align-items: center;
 }
 
+.logo__inner:hover {
+    cursor: pointer;
+}
+
 .logo__img {
     width: 24px;
     height: 24px;
