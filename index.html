@@ -82,7 +82,7 @@
         />
         <meta name="theme-color" content="#ffffff" />
         <!-- Reset CSS -->
-
+        <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Embed fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -93,5 +93,46 @@
         <!-- Styles CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body></body>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <!-- Logo -->
+                    <div class="logo__inner">
+                        <img
+                            src="./assets/img/logo.svg"
+                            alt="Mobile Banking"
+                            class="logo__img"
+                        />
+                        <p class="logo__text">CeloBank</p>
+                    </div>
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link active">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Products</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Features</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Header action -->
+                    <div class="header-action">
+                        <a href="#!" class="header-action__link">Log in</a>
+                        <a href="#!" class="btn header-action__btn">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </body>
 </html>
