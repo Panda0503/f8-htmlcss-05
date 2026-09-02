@@ -416,7 +416,31 @@ button {
     width: 40px;
     height: 40px;
     border-radius: 8px;
-    background: #f9efef;
+}
+
+.mobile-screen__group .group-item:nth-child(1) .group-item__icon {
+    background: rgba(74, 181, 227, 0.1);
+    box-shadow:
+        -4px -2px 16px 0 #fff,
+        4px 2px 16px 0 rgba(136, 165, 191, 0.48);
+}
+.mobile-screen__group .group-item:nth-child(2) .group-item__icon {
+    background: rgba(218, 100, 100, 0.1);
+    box-shadow:
+        -4px -2px 16px 0 #fff,
+        4px 2px 16px 0 rgba(136, 165, 191, 0.48);
+}
+.mobile-screen__group .group-item:nth-child(3) .group-item__icon {
+    background: rgba(67, 159, 144, 0.1);
+    box-shadow:
+        -4px -2px 16px 0 #fff,
+        4px 2px 16px 0 rgba(136, 165, 191, 0.48);
+}
+.mobile-screen__group .group-item:nth-child(4) .group-item__icon {
+    background: rgba(114, 100, 214, 0.1);
+    box-shadow:
+        -4px -2px 16px 0 #fff,
+        4px 2px 16px 0 rgba(136, 165, 191, 0.48);
 }
 
 .group-item__name {
@@ -651,4 +675,179 @@ button {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75;
+}
+
+/* Feature 1 */
+.feature-1 {
+    margin-top: 160px;
+    height: 500px;
+    background: orange;
+}
+
+.feature-1__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Feature content */
+.feature-1__content {
+    margin-right: 130px;
+}
+
+.feature-1__heading {
+    width: 470px;
+}
+
+.feature-1__desc {
+    margin-top: 20px;
+    width: 470px;
+}
+
+.feature-1__list {
+    margin-top: 28px;
+}
+
+.feature-1__item {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.feature-1__item::before {
+    margin-right: 12px;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.feature-1__btn {
+    margin-top: 38px;
+}
+
+/* Feature card */
+.feature-1__card {
+    position: absolute;
+    right: 88px;
+    padding: 38px;
+    min-width: 482px;
+    height: 322px;
+    border-radius: 20px;
+    background: linear-gradient(76deg, #8679e4 11.52%, #7264d6 70.78%);
+}
+
+/* Card Top */
+.feature-1__card-main__balance {
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.feature-1__card-main__balance__value {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 3.2rem;
+}
+
+.feature-1__card-logo__bank {
+    width: 80px;
+    height: 48px;
+}
+
+/* Card bottom */
+.feature-1__card-bottom {
+    position: relative;
+    z-index: 2;
+    margin-top: 130px;
+    display: flex;
+}
+
+.feature-1__card-valid_thur,
+.feature-1__card-holder {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.feature-1__card-valid__thur__value,
+.feature-1__card-holder__value {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.feature-1__card-group-3 {
+    margin-left: 26px;
+}
+
+/* Card decor */
+.feature-1__card-decor__1 {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 6px;
+}
+.feature-1__card-decor__2 {
+    position: absolute;
+    z-index: 1;
+    bottom: -4px;
+    right: 0px;
+}
+
+/* Feature tag 1 */
+.feature-1__tag-1 {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    padding: 23px 13px;
+    z-index: 2;
+    width: 276px;
+    height: 86px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 14px 38px 0 rgba(0, 0, 0, 0.07);
+}
+
+.feature-1__tag-1 .group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-1__tag-1 .group-item .group-item__icon {
+    border-radius: 8px;
+    background: rgba(218, 100, 100, 0.1);
+    box-shadow:
+        -4px -2px 16px 0 #fff,
+        4px 2px 16px 0 rgba(136, 165, 191, 0.48);
+}
+
+/* Feature tag 2 */
+.feature-1__tag-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 120px;
+    border-radius: 16px;
+    background: #439f90;
+}
+
+.group-item-2__icon {
+    margin: 14px 0 0 15px;
+}
+
+.group-item-2__name {
+    margin: 14px 0 0 15px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.group-item-2__value {
+    margin: 6px 0 15px 15px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
