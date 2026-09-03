@@ -977,7 +977,6 @@ button {
 /* Testimonial comment */
 .testimonial__comment {
     margin-top: 70px;
-    /* background: red; */
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
@@ -1051,4 +1050,90 @@ button {
 
 .testimonial__pagination:hover {
     cursor: pointer;
+}
+
+/* Blog */
+.blog {
+    margin-top: 160px;
+}
+
+/* Blog top */
+.blog__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog__heading {
+    margin-top: 6px;
+}
+
+.blog__desc {
+    margin-top: 18px;
+    width: 435px;
+    font-size: 1.6rem;
+}
+
+.blog__btn {
+    width: 123px;
+}
+
+/* Blog body */
+.blog__body {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 570px);
+    grid-template-rows: repeat(2, 216px);
+    gap: 30px 30px;
+}
+
+.blog__item {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.07);
+}
+
+.blog__item-img {
+    margin-left: 28px;
+}
+
+.blog__img {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+}
+
+.blog__item-content {
+    margin-left: 22px;
+}
+
+.blog__item-date {
+    color: #696d76;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.blog__item-title {
+    margin-top: 10px;
+    width: 332px;
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.blog__item-link {
+    margin-top: 20px;
+    color: #696d76;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.63;
+}
+
+.blog__item:first-child .blog__item-link {
+    color: #7264d6;
 }
